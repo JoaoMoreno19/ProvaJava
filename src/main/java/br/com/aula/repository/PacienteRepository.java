@@ -1,9 +1,9 @@
 package br.com.aula.repository;
 
-import br.com.aula.model.Curso;
+import br.com.aula.model.Paciente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CursoRepository extends JpaRepository<Curso, Long> {
+public interface PacienteRepository extends JpaRepository<Paciente, Integer > {
 }
